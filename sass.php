@@ -31,7 +31,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 /*
 Plugin Name: Sass for Wordpress
-Plugin URI: http://www.80beans.com/wordpress-sass-plugin
+Plugin URI: http://www.80beans.com/open-source/sass-for-wordpress-plugin/
 Description: "Sass for Wordpress" enables you to use Sass (Syntactically Awesome StyleSheets, http://sass-lang.com/) in your Wordpress project.
 Author: 80beans B.V.
 Version: 1.0
