@@ -1,0 +1,31 @@
+=== Sass for Wordpress ===
+Contributors: roytomeij
+Tags: sass, css
+Requires at least: 2.0
+Tested up to: 2.8.4
+
+"Sass for Wordpress" enables you to use Sass (Syntactically Awesome StyleSheets) in your Wordpress project.
+
+== Description ==
+
+"Sass for Wordpress" enables you to use Sass ([Syntactically Awesome StyleSheets](http://sass-lang.com/)) in your Wordpress project.
+
+== Installation ==
+
+First, you need to have the Haml gem installed on your server to use the plugin (Sass comes bundled with Haml). Please have a look at the Sass website for [installation instructions for Haml/Sass](http://sass-lang.com/download.html).
+
+Second, your PHP version needs to be 5+ and shouldn't run in safe mode. We need to use the exec() function to run the command line tool to transform Sass into CSS.
+
+If you're sure you have done the above, you are ready to go (syntax below)!
+
+== Changelog ==
+
+= 1.0 =
+
+* Initial release.
+
+== Usage/syntax ==
+
+Simply refer to your Sass file by using the sass('filename') function. For instance, to use a style.sass file in your theme directory (which will be transformed into style.css), put this in your head:
+
+<link rel="stylesheet" href="<?php echo sass('style'); ?>" type="text/css" media="screen" />
